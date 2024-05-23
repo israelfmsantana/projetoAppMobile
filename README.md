@@ -40,3 +40,9 @@ Projeto Final da matéria de Aplicativos Mobile, onde trabalhamos com a criaçã
   - [GitHub]
 
 ---
+
+
+## Link para Documentos
+
+- Docks
+  - https://docs.google.com/document/d/1ZjjR5T6dMbIzHUqZ_iaxUv_M-bnYmnS_aKeHB0-h0yw/edit
