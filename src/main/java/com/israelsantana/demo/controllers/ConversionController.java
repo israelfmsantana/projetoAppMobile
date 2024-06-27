@@ -18,6 +18,8 @@ public class ConversionController {
     @Autowired
     private ConversionService conversionService;
 
+
+    //Graus para Radianos
     @GetMapping("/graus-radianos/{graus}")
     public ResponseEntity<Double> DegreesToRadians(@PathVariable Double graus) {
 
@@ -26,6 +28,7 @@ public class ConversionController {
         
     }
 
+    //Radianos para Graus
     @GetMapping("/radianos-graus/{radianos}")
     public ResponseEntity<Double> RadiansToDegrees(@PathVariable Double radianos) {
 
@@ -34,6 +37,7 @@ public class ConversionController {
         
     }
 
+    //Celsius para Fahrenheit
     @GetMapping("/celsius-fahrenheit/{celsius}")
     public ResponseEntity<Double> CelsiusToFahrenheit(@PathVariable Double celsius) {
 
@@ -42,6 +46,7 @@ public class ConversionController {
         
     }
 
+    //Fahrenheit para Celsius
     @GetMapping("/fahrenheit-celsius/{fahrenheit}")
     public ResponseEntity<Double> FahrenheitToCelsius(@PathVariable Double fahrenheit) {
 
@@ -50,6 +55,7 @@ public class ConversionController {
         
     }
 
+    //Metros para Centimetros
     @GetMapping("/metros-centimetros/{metros}")
     public ResponseEntity<Double> MetersToCentimeters(@PathVariable Double metros) {
 
@@ -58,6 +64,7 @@ public class ConversionController {
        
     }
 
+    //Centimetros para Metros
     @GetMapping("/centimetros-metros/{centimetros}")
     public ResponseEntity<Double> CentimetersToMeters(@PathVariable Double centimetros) {
 
@@ -66,6 +73,7 @@ public class ConversionController {
        
     }
 
+    //Quilogramas para Gramas
     @GetMapping("/quilogramas-gramas/{quilogramas}")
     public ResponseEntity<Double> KilogramsToGrams(@PathVariable Double quilogramas) {
 
@@ -74,6 +82,7 @@ public class ConversionController {
        
     }
 
+    //Gramas para Quilogramas
     @GetMapping("/gramas-quilogramas/{gramas}")
     public ResponseEntity<Double> GramsToKilograms(@PathVariable Double gramas) {
 
@@ -82,6 +91,7 @@ public class ConversionController {
        
     }
 
+    //Litros para Mililitros
     @GetMapping("/litros-mililitros/{litros}")
     public ResponseEntity<Double> LitersToMilliliters(@PathVariable Double litros) {
 
@@ -90,6 +100,7 @@ public class ConversionController {
        
     }
 
+    //Mililitros para Litros
     @GetMapping("/mililitros-litros/{mililitros}")
     public ResponseEntity<Double> MillilitersToLiters(@PathVariable Double mililitros) {
 
@@ -98,6 +109,7 @@ public class ConversionController {
        
     }
 
+    //Metros Quadrados para Centimetros Quadrados
     @GetMapping("/metrosQuadrados-centimetrosQuadrados/{metrosQuadrados}")
     public ResponseEntity<Double> SquareMetersToSquareCentimeters(@PathVariable Double metrosQuadrados) {
 
@@ -106,6 +118,7 @@ public class ConversionController {
        
     }
 
+    //Centimetros Quadrados para Metros Quadrados
     @GetMapping("/centimetrosQuadrados-metrosQuadrados/{centimetrosQuadrados}")
     public ResponseEntity<Double> SquareCentimetersToSquareMeters(@PathVariable Double centimetrosQuadrados) {
 
@@ -114,6 +127,7 @@ public class ConversionController {
        
     }
 
+    //Quilometros por Hora para Metros por Segundo
     @GetMapping("/quilômetrosPorHora-metrosPorSegundo/{quilômetrosPorHora}")
     public ResponseEntity<Double> KilometersPerHourToMetersPerSecond(@PathVariable Double quilômetrosPorHora) {
 
@@ -122,6 +136,7 @@ public class ConversionController {
        
     }
 
+    //Metros por Segundo para Quilometros por Hora
     @GetMapping("/metrosPorSegundo-quilômetrosPorHora/{metrosPorSegundo}")
     public ResponseEntity<Double> MetersPerSecondToKilometersPerHour(@PathVariable Double metrosPorSegundo) {
 
@@ -130,6 +145,7 @@ public class ConversionController {
        
     }
 
+    //Dolares para Euros
     @GetMapping("/dolares-euros/{dolares}")
     public ResponseEntity<Double> DollarsToEuros(@PathVariable Double dolares) {
 
@@ -138,6 +154,7 @@ public class ConversionController {
         
     }
 
+    //Reais para Dolares
     @GetMapping("/reais-dolares/{reais}")
     public ResponseEntity<Double> ReaisToDollars(@PathVariable Double reais) {
 
@@ -146,6 +163,7 @@ public class ConversionController {
         
     }
 
+    //Horas para Minutos
     @GetMapping("/horas-minutos/{horas}")
     public ResponseEntity<Double> HoursToMinutes(@PathVariable Double horas) {
 
@@ -154,6 +172,7 @@ public class ConversionController {
        
     }
 
+    //Minutos para Horas
     @GetMapping("/minutos-horas/{minutos}")
     public ResponseEntity<Double> MinutesToHours(@PathVariable Double minutos) {
 

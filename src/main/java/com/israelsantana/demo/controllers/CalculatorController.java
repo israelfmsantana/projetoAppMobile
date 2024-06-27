@@ -18,6 +18,7 @@ public class CalculatorController {
     @Autowired
     private CalculatorService calculatorService;
 
+    //Soma
     @GetMapping("/soma/{n1}/{n2}")
     public ResponseEntity<Double> Sum(@PathVariable Double n1, @PathVariable Double n2) {
 
@@ -26,6 +27,7 @@ public class CalculatorController {
         
     }
 
+    //Subtração
     @GetMapping("/subtracao/{n1}/{n2}")
     public ResponseEntity<Double> Subtraction(@PathVariable Double n1, @PathVariable Double n2) {
 
@@ -34,6 +36,7 @@ public class CalculatorController {
         
     }
 
+    //Multiplicação
     @GetMapping("/multiplicacao/{n1}/{n2}")
     public ResponseEntity<Double> Multiplication(@PathVariable Double n1, @PathVariable Double n2) {
 
@@ -42,6 +45,7 @@ public class CalculatorController {
         
     }
 
+    //Divisão
     @GetMapping("/divisao/{n1}/{n2}")
     public ResponseEntity<Double> Division(@PathVariable Double n1, @PathVariable Double n2) {
 
@@ -50,6 +54,7 @@ public class CalculatorController {
         
     }
 
+    //Exponenciação
     @GetMapping("/exponenciacao/{n1}/{n2}")
     public ResponseEntity<Double> Exponentiation(@PathVariable Double n1, @PathVariable Double n2) {
 
@@ -58,6 +63,7 @@ public class CalculatorController {
         
     }
 
+    //RaizQuadrada
     @GetMapping("/raizQuadrada/{n1}")
     public ResponseEntity<Double> SquareRoot(@PathVariable Double n1) {
 
@@ -66,6 +72,7 @@ public class CalculatorController {
         
     }
 
+    //logaritmo
     @GetMapping("/logaritmo/{n1}")
     public ResponseEntity<Double> Logarithm(@PathVariable Double n1) {
 

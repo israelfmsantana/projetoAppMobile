@@ -51,6 +51,7 @@ public class SecurityConfig {
         private static final String[] PUBLIC_MATCHERS_GET = {
                 "/calculator","/calculator/**",
                 "/conversion","/conversion/**",
+                "/investment","/investment/**",
         };
 
         @Bean
